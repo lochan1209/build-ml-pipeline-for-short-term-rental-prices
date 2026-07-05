@@ -6,27 +6,27 @@ entry_points:
     parameters:
 
       input_artifact:
-        description: ## ADD DESCRIPTION
+        description: Name of the input artifact to download from W&B
         type: string
 
       output_artifact:
-        description: ## ADD DESCRIPTION
+        description: Name of the output artifact to create in W&B
         type: string
 
       output_type:
-        description: ## ADD DESCRIPTION
+        description: Type of the output artifact
         type: string
 
       output_description:
-        description: ## ADD DESCRIPTION
+        description: Type of the output artifact
         type: string
 
       min_price:
-        description: ## ADD DESCRIPTION
+        description: Minimum price allowed for listings
         type: string
 
       max_price:
-        description: ## ADD DESCRIPTION
+        description: Maximum price allowed for listings
         type: string
 
 
